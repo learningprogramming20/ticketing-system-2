@@ -1,0 +1,58 @@
+.ispcontaier {
+  border: 1px solid black;
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+}
+.isp-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.openticket-label,
+.openticket-input {
+  display: block;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.openticket-input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.openticketsection {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin-bottom: 20px;
+  /* border: 1px solid black;
+  min-height: 100px; */
+}
+
+.newticket-submitbtn {
+  /* background-color: #4caf50; */
+  background-color: #f16f3c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  /* width: 20%; */
+}
+
+.closediv {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #b71c1c;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

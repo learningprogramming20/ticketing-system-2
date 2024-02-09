@@ -1,0 +1,64 @@
+.loginshome-container {
+  border: 1px solid black;
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  /* height: 100vh; */
+}
+
+.loginsheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.login-search {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  /* border: 1px solid red; */
+}
+.login-header-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.loginssearch-input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  outline: none;
+}
+.logintablebtn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  /* width: 20%; */
+}
+
+.all-logins h2 {
+  margin: 10px 0;
+}
+
+.login-table {
+  font-size: 12px;
+}
+
+.search-section {
+  /* background-color: #4caf50; */
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 10px 0;
+}

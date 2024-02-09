@@ -1,0 +1,44 @@
+.home {
+  /* background-color: red; */
+  display: flex;
+  padding: 20px;
+}
+.homeleft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homeright {
+  flex: 1;
+}
+
+.userprofile {
+  background-color: aliceblue;
+  background-color: rgb(2, 19, 94);
+  color: white;
+  border-radius: 10px;
+  width: 70%;
+  /* height: 150px; */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.hometickets {
+  background-color: aliceblue;
+  background-color: #f16f3c;
+  color: white;
+  border-radius: 10px;
+  width: 70%;
+  padding: 20px;
+}
+.piechartdiv {
+  display: flex;
+  height: 250px;
+  margin: 20px 0;
+}
+.bargraphdiv {
+  /* background-color: red; */
+  display: flex;
+  height: 200px;
+  margin: 20px 0;
+}

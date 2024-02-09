@@ -1,0 +1,50 @@
+.addispnodecontainer {
+  border: 1px solid black;
+  width: 40%;
+  margin: 40px auto;
+  padding: 20px;
+}
+.addnodeheader {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.addnodeinputdiv {
+  margin: 10px 0;
+}
+
+.addnodeinputdiv-input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* .addnodedatetimepicker {
+  border: 1px solid red;
+} */
+.addnodebtn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+}
+/* .date-time-picker-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-picker-container,
+.time-picker-container {
+  margin: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+} */

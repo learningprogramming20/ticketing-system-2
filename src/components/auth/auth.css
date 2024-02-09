@@ -1,0 +1,86 @@
+.auth-home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 70px);
+}
+
+.auth-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.auth-subtitle {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.auth-buttons {
+  display: flex;
+  /* gap: 1rem; */
+}
+
+.auth-button:hover {
+  background-color: rgb(2, 19, 94);
+}
+
+.auth-button {
+  width: 220px;
+  background-color: #f16f3c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Login.css */
+
+.login-container {
+  width: 35%;
+  margin: 100px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register-container {
+  width: 45%;
+  margin: 100px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.authbtn {
+  width: 100%;
+  background-color: #f16f3c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.registerdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+.registerdiv p {
+  margin-right: 10px;
+}
+
+.auth-form-group {
+  display: flex;
+  justify-content: space-between;
+}
+.auth-forminput-input {
+  width: 100%;
+}

@@ -1,0 +1,62 @@
+.openticketscontianer {
+  border: 1px solid black;
+  /* width: 80%;
+  margin: 40px auto; */
+  padding: 20px;
+}
+.tickettable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.tickettable th,
+.tickettable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.opentickets-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.openticketsfilter {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 18px;
+}
+.opensearchinput {
+  background-color: aquamarine;
+  margin-right: 20px;
+  width: 20%;
+}
+
+.opensearchinput input {
+  width: 100%;
+  /* padding: 0; */
+  margin: 0;
+}
+.tablebuttons {
+  display: flex;
+}
+
+.table-button {
+  background-color: #f16f3c;
+  color: #fff;
+  padding: 7px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.monthlytable {
+  width: 100%;
+  font-size: 8px;
+  overflow-x: auto;
+}

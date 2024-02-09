@@ -1,0 +1,14 @@
+.forminput-label,
+.forminput-input {
+  display: block;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.forminput-input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}

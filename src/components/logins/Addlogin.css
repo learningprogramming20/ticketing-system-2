@@ -1,0 +1,41 @@
+.login-label,
+.logins-input {
+  display: block;
+  padding: 0;
+}
+
+.loginstitle {
+  font-size: 20px;
+}
+.logins-input {
+  display: block;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 5px 15px 0 0;
+  outline: none;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+.loginsform {
+  border: 1px solid black;
+  width: 70%;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.loginfields {
+  display: flex;
+  justify-content: start;
+  padding: 10px 0;
+}
+
+.logintextarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px 0;
+}
